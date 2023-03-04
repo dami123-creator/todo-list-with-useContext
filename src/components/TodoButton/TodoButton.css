@@ -1,0 +1,26 @@
+.TodoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #00c7d1;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    justify-self: end;
+    align-self: end;
+    margin-bottom: 7vh;
+    margin-right: 5vw;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.TodoButton:hover {
+    background-color: #008e96;
+    color: #EAEAEA;
+}

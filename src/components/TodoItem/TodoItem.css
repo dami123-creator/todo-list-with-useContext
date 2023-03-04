@@ -1,0 +1,40 @@
+.TodoItem {
+    border: solid 2px #00c7d1;
+    width: 90%;
+    margin: 1rem 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 1.1;
+    background-color: #fff;
+}
+
+.TodoItem-icon {
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.TodoItem-check:hover {
+    color: #429900;
+}
+
+.TodoItem-remove:hover {
+    color: #E0144C;
+}
+
+.TodoItem--activate {
+    background-color: #B2B2B2;
+}
+
+.TodoItem--activate > .TodoItem-text {
+    text-decoration: line-through;
+}
+
+.TodoItem--activate > .TodoItem-check {
+    color: #429900;
+    font-size: 2rem;
+}
